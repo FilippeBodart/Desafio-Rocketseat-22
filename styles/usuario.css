@@ -1,0 +1,25 @@
+.usuario{
+    display: flex;
+    gap: calc(5px + 1.5vh);
+    align-items: center;
+    justify-content: center;
+
+    line-height: calc(8px + 1.5vh);
+}
+
+.usuario__avatar{
+    min-height: 48px;
+    min-width: 48px;
+}
+
+.usuario__nome{
+    color: var(--cor-primaria);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.usuario__email{
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 14px;
+}
